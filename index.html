@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="index.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+  <div class="score-container">
+    <strong>Human Score</strong>
+    <div class="score" id="human-score"></div>
+  </div>
+  <button id="start-button">Start / Restart</button>
+  <div class="score-container">
+    <strong>Computer Score</strong>
+    <div class="score" id="computer-score"></div>
+  </div>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button" id="close-button">&times;</span>
+      <p id="modal-text"></p>
+      <button id="rock-button">Rock</button>
+      <button id="paper-button">Paper</button>
+      <button id="scissors-button">Scissors</button>
+    </div>
+  </div>
+</body>
+
+</html>
